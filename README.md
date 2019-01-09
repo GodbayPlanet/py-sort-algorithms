@@ -1,1 +1,1 @@
-# py-sorting-algorithms
+# py-sort-algorithms
