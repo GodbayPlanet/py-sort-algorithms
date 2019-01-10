@@ -8,3 +8,7 @@ class Utils:
         temp = items[i]
         items[i] = items[j]
         items[j] = temp
+
+    @staticmethod
+    def get_numbers():
+        return [4, 3, 2, 1, 9, 10, 7, 8, 6]
