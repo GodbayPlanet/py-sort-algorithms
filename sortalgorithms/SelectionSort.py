@@ -31,3 +31,10 @@ numbers = [4, 3, 2, 1, 9, 10, 7, 8, 6]
 print("Unsorted numbers", numbers)
 
 print("Sorted numbers", SelectionSort.sort(numbers))
+
+characters = ['f', 'b', 'a', 'd', 'h', 'c']
+
+print("Unsorted characters", characters)
+
+print("Sorted characters", SelectionSort.sort(characters))
+
