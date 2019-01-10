@@ -38,3 +38,9 @@ print("Unsorted characters", characters)
 
 print("Sorted characters", SelectionSort.sort(characters))
 
+strings = ["Quit", "Practice", "Logs", "Coding", "Array"]
+
+print("Unsorted string", strings)
+
+print("Sorted strings", SelectionSort.sort(strings))
+
