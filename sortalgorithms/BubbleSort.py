@@ -15,14 +15,10 @@ class BubbleSort:
         return items
 
 
-numbers = [4, 3, 2, 1]
-
+numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
-
 print("Sorted numbers", BubbleSort.sort(numbers))
 
-characters = ['f', 'b', 'a', 'd', 'h', 'c']
-
+characters = Utils.get_characters()
 print("Unsorted characters", characters)
-
 print("Sorted characters", BubbleSort.sort(characters))

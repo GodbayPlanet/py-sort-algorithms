@@ -26,21 +26,14 @@ class SelectionSort:
         return min_index
 
 
-numbers = [4, 3, 2, 1, 9, 10, 7, 8, 6]
-
+numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
-
 print("Sorted numbers", SelectionSort.sort(numbers))
 
-characters = ['f', 'b', 'a', 'd', 'h', 'c']
-
+characters = Utils.get_characters()
 print("Unsorted characters", characters)
-
 print("Sorted characters", SelectionSort.sort(characters))
 
-strings = ["Quit", "Practice", "Logs", "Coding", "Array"]
-
+strings = Utils.get_strings()
 print("Unsorted string", strings)
-
 print("Sorted strings", SelectionSort.sort(strings))
-

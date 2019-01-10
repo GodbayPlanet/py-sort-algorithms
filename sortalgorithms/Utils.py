@@ -12,3 +12,11 @@ class Utils:
     @staticmethod
     def get_numbers():
         return [4, 3, 2, 1, 9, 10, 7, 8, 6]
+
+    @staticmethod
+    def get_characters():
+        return ['f', 'b', 'a', 'd', 'h', 'c']
+
+    @staticmethod
+    def get_strings():
+        return ["Quit", "Practice", "Logs", "Coding", "Array"]
