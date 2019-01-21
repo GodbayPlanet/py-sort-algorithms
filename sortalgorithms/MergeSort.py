@@ -1,6 +1,3 @@
-from Utils import Utils
-
-
 class MergeSort:
 
     def __init__(self):
