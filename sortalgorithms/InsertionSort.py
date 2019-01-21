@@ -16,8 +16,3 @@ class InsertionSort:
                     break
 
         return items
-
-
-numbers = Utils.get_numbers()
-print("Unsorted numbers", numbers)
-print("Sorted numbers", InsertionSort.sort(numbers))

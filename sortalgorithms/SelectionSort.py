@@ -24,16 +24,3 @@ class SelectionSort:
                 min_index = i
 
         return min_index
-
-
-numbers = Utils.get_numbers()
-print("Unsorted numbers", numbers)
-print("Sorted numbers", SelectionSort.sort(numbers))
-
-characters = Utils.get_characters()
-print("Unsorted characters", characters)
-print("Sorted characters", SelectionSort.sort(characters))
-
-strings = Utils.get_strings()
-print("Unsorted string", strings)
-print("Sorted strings", SelectionSort.sort(strings))

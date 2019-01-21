@@ -52,16 +52,3 @@ class QuickSort:
 
         Utils.swap(items, start_index, j)
         return j
-
-
-numbers = Utils.get_numbers()
-print("Unsorted numbers", numbers)
-print("Sorted numbers", QuickSort.sort(numbers))
-
-characters = Utils.get_characters()
-print("Unsorted characters", characters)
-print("Sorted characters", QuickSort.sort(characters))
-
-strings = Utils.get_strings()
-print("Unsorted strings", strings)
-print("Sorted stirngs", QuickSort.sort(strings))

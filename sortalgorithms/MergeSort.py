@@ -43,12 +43,3 @@ class MergeSort:
                 items[k] = aux[i]
                 i += 1
             k += 1
-
-
-numbers = Utils.get_numbers()
-print("Unsorted numbers", numbers)
-print("Sorted numbers", MergeSort.sort(numbers))
-
-characters = Utils.get_characters()
-print("Unsorted characters", characters)
-print("Sorted characters", MergeSort.sort(characters))

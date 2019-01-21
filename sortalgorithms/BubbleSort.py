@@ -13,12 +13,3 @@ class BubbleSort:
                 if items[j + 1] < items[j]:
                     Utils.swap(items, j + 1, j)
         return items
-
-
-numbers = Utils.get_numbers()
-print("Unsorted numbers", numbers)
-print("Sorted numbers", BubbleSort.sort(numbers))
-
-characters = Utils.get_characters()
-print("Unsorted characters", characters)
-print("Sorted characters", BubbleSort.sort(characters))
