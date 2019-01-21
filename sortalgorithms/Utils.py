@@ -1,3 +1,6 @@
+import random
+
+
 class Utils:
 
     def __init__(self):
@@ -20,3 +23,7 @@ class Utils:
     @staticmethod
     def get_strings():
         return ["Quit", "Practice", "Logs", "Coding", "Array"]
+
+    @staticmethod
+    def get_random_numbers_of_length(array_length):
+        return [random.randint(1, 10) for _ in range(array_length)]
