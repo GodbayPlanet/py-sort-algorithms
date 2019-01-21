@@ -7,6 +7,8 @@ from BubbleSort import BubbleSort
 
 # QUICK SORT
 
+print("----- QUICK SORT -----\n")
+
 numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
 print("Sorted numbers", QuickSort.sort(numbers))
@@ -20,6 +22,7 @@ print("Unsorted strings", strings)
 print("Sorted stirngs", QuickSort.sort(strings))
 
 # MERGE SORT
+print("\n----- QUICK SORT -----\n")
 
 numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
@@ -30,6 +33,7 @@ print("Unsorted characters", characters)
 print("Sorted characters", MergeSort.sort(characters))
 
 # INSERTION SORT
+print("\n----- INSERTION SORT -----\n")
 
 numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
@@ -40,6 +44,7 @@ print("Unsorted characters", characters)
 print("Sorted characters", InsertionSort.sort(characters))
 
 # SELECTION SORT
+print("\n----- SELECTION SORT -----\n")
 
 numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
@@ -54,6 +59,7 @@ print("Unsorted string", strings)
 print("Sorted strings", SelectionSort.sort(strings))
 
 # BUBBLE SORT
+print("\n----- BUBBLE SORT -----\n")
 
 numbers = Utils.get_numbers()
 print("Unsorted numbers", numbers)
